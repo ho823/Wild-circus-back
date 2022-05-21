@@ -142,18 +142,6 @@ app.put('/contact/:id', (req, res) => {
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 app.listen(port, (err) => {
   if (err) {
     throw new Error('Something bad happened...');
